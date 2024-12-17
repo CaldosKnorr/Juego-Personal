@@ -1,0 +1,84 @@
+.primer-lugar {
+    background-color: gold;
+    font-weight: bold;
+}
+
+.segundo-lugar {
+    background-color: silver;
+    font-weight: bold;
+}
+
+.tercer-lugar {
+    background-color: #cd7f32; /* Bronce */
+    font-weight: bold;
+}
+
+.cuarto-lugar{
+    background-color: #8bc0f1; /* Bronce */
+    font-weight: bold;
+}
+
+
+.header{
+    display: flex;
+    justify-content: center;
+
+}
+
+div{
+    flex-grow: 1;
+   border: 1px solid;
+   background-color: rgb(80, 205, 255);
+   overflow: hidden;
+}
+p{
+    border-bottom: 1px;
+
+}
+
+.nombreP{
+    text-align: center;
+    background-color: rgb(236, 40, 14);
+ 
+}
+.tabla {
+   margin: 1%;
+}
+
+.juego{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.contador{
+    flex-grow: 0;
+    margin: 1%;
+    width: 4em;
+    height: 4em;
+    background-color: rgb(209, 171, 245);
+    border-radius: 50%;
+}
+
+
+.contador >:first-child{
+    text-align: center;
+    font-size: 2em;
+    margin-top: 20%;
+    
+
+}
+
+
+
+@keyframes peligro{
+    from{
+        transform: scale(1);
+        background-color: rgb(128, 240, 93)
+
+    }to{
+        transform: scale(1.9)
+
+    }
+}
